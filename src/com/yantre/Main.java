@@ -19,7 +19,15 @@ public class Main {
         for (int i = 0; i < arrayList1.size(); i++)
         {
             System.out.println(arrayList1.get(i).toString());
+
         }
+
+        // TODO Создать второй список Задач. Пустой.
+
+		// взять 1-й элемент из списка1 и добавить в список 2
+
+
+		// вывести на экран все элементы списка 2
 
 /*        for (Zadacha zadacha : arrayList1)
         {
