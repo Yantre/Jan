@@ -1,5 +1,8 @@
 package com.yantre;
 
+import java.util.ArrayList;
+import java.util.List;
+
 // объявляем класс
 public class Zadacha
 {
@@ -18,6 +21,7 @@ public class Zadacha
 		this.year = year;
 		this.sostojnie = false;
 		this.endDay = 31;
+		//this.podZadachi = new ArrayList<>();
 	}
 
 	public Zadacha (String name, int month, int year, int endDay) {
@@ -37,6 +41,17 @@ public class Zadacha
 	private int year;
 	private int endDay;
 
+	private List<Zadacha> podZadachi;// = new ArrayList<>();
+
+	public List<Zadacha> getPodZadachi()
+	{
+		return podZadachi;
+	}
+
+	public void setPodZadachi(List<Zadacha> podZadachi)
+	{
+		this.podZadachi = podZadachi;
+	}
 
 	// методы класса
 	public boolean isSostojnie()
